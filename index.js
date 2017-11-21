@@ -1,16 +1,15 @@
 import {AppRegistry} from 'react-native';
 import React, {Component} from 'react';
+import PDFView from './src/components/PDFView/PDFView'
 
-import Login from './src/components/Login'
-
-export default class LoginActivity extends Component{
+export default class Splash extends Component{
     render()
     {
         return(
-            <Login/>
+            <PDFView/>
         );
     }
 
 
 }
-AppRegistry.registerComponent('glencode_react', () => Login);
+AppRegistry.registerComponent('glencode_react', () => PDFView);
