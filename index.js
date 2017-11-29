@@ -1,15 +1,19 @@
 import {AppRegistry} from 'react-native';
 import React, {Component} from 'react';
-import PDFView from './src/components/PDFView/PDFView'
+import TableComponent from './src/components/Table/TableComponent'
+import ActionBarComponent from './src/components/ActionBar/ActionBarComponent'
 
-export default class Splash extends Component{
+export default class ActionBar extends Component{
     render()
     {
         return(
-            <PDFView/>
+            <ActionBarComponent/>,
+            <TableComponent/>
         );
     }
 
 
 }
-AppRegistry.registerComponent('glencode_react', () => PDFView);
+AppRegistry.registerComponent('glencode_react', () => ActionBar);
+
+

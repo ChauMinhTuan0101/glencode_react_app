@@ -4,13 +4,10 @@
  * @flow
  */
 
-import React, { Component } from 'react';
-import {
-  Platform,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+import React, {Component} from 'react';
+import {Platform, ScrollView, StyleSheet, Text, View} from 'react-native';
+import {DrawerNavigator} from 'react-navigation';
+import TableComponent from './src/components/Table/TableComponent'
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -18,6 +15,15 @@ const instructions = Platform.select({
   android: 'Double tap R on your keyboard to reload,\n' +
     'Shake or press menu button for dev menu',
 });
+
+const  MyDrawerNavigator = DrawerNavigator({
+  Tuan1: {screen:TableComponent}
+
+  },
+    {
+        contentComponent: props => <ScrollView><DrawerItems>{...props}</DrawerItems></ScrollView>
+    }
+    );
 
 export default class App extends Component<{}> {
   render() {

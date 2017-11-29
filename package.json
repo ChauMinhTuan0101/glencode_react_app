@@ -7,10 +7,15 @@
     "test": "jest"
   },
   "dependencies": {
+    "prop-types": "^15.6.0",
     "react": "16.0.0",
     "react-native": "0.50.1",
+    "react-native-action-bar": "^2.0.2",
+    "react-native-drawer-layout": "^2.0.0",
     "react-native-notifications": "^1.1.17",
-    "react-native-splash-screen": "^3.0.1"
+    "react-native-splash-screen": "^3.0.1",
+    "react-native-table-component": "latest",
+    "react-navigation": "^1.0.0-beta.21"
   },
   "devDependencies": {
     "babel-jest": "21.2.0",
