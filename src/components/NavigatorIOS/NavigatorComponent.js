@@ -7,6 +7,7 @@ export default class NavigatorComponent extends Component {
     render() {
         return (
             <NavigatorIOS
+                //Route
                 initialRoute={{
                     component: MyScene,
                     title: "Navigation demo",

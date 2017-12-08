@@ -7,11 +7,16 @@
     "test": "jest"
   },
   "dependencies": {
+    "firebase": "^4.7.0",
     "prop-types": "^15.6.0",
     "react": "16.0.0",
     "react-native": "0.50.1",
     "react-native-action-bar": "^2.0.2",
     "react-native-drawer-layout": "^2.0.0",
+    "react-native-facebook-login": "^1.6.0",
+    "react-native-firebase-auth": "^1.0.1",
+    "react-native-gifted-spinner": "^0.1.0",
+    "react-native-google-sign-in": "^1.0.16",
     "react-native-notifications": "^1.1.17",
     "react-native-splash-screen": "^3.0.1",
     "react-native-table-component": "latest",

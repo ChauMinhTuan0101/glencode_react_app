@@ -5,12 +5,16 @@ import LoginForm from './LoginForm';
 
 // create a component
 class Login extends Component {
+
+
+    // }
     render() {
         return (
             <KeyboardAvoidingView behavior="padding" style={styles.container}>
 
                 <View style={styles.loginContainer}>
-                    <Image resizeMode="contain" style={styles.logo} source={require('../components/images/logo.png')} />
+                    <Image resizeMode="contain" style={styles.logo}
+                           source={require('./images/logo.png')} />
 
                 </View>
                 <View style={styles.formContainer}>

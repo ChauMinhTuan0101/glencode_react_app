@@ -1,19 +1,19 @@
 import {AppRegistry} from 'react-native';
 import React, {Component} from 'react';
-import TableComponent from './src/components/Table/TableComponent'
-import ActionBarComponent from './src/components/ActionBar/ActionBarComponent'
+//import TableComponent from './src/components/Table/TableComponent'
+import Login from './src/components/Login';
 
-export default class ActionBar extends Component{
+export default class LoginScreen extends Component{
+
     render()
     {
         return(
-            <ActionBarComponent/>,
-            <TableComponent/>
+            <Login/>
         );
     }
 
 
 }
-AppRegistry.registerComponent('glencode_react', () => ActionBar);
+AppRegistry.registerComponent('glencode_react', () => LoginScreen);
 
 
